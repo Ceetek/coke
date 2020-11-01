@@ -1,9 +1,8 @@
 /*!
  * dlcee v1.0.0
  * A tiny, Promise-based vanilla JS Ajax/HTTP plugin with great browser support.
- * (c) 2020 Chris Ferdinandi
+ * (c) 2020 Ceetek
  * MIT License
- * https://github.com/cferdinandi/atomic
  */
 
 var bUrl =
