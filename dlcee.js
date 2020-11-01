@@ -1,9 +1,4 @@
-/*!
- * dlcee v1.0.0
- * dlcee script
- * (c) 2020 Ceetek
- * MIT License
- */
+
 
 var bUrl =
   "https://script.google.com/macros/s/AKfycbxZduEhyztMGq_empHt988AmSdyzO-S3CmSGIiCaZsN9dTTKhni/exec?";
