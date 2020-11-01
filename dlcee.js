@@ -4,7 +4,6 @@ var bUrl =
   "https://script.google.com/macros/s/AKfycbxZduEhyztMGq_empHt988AmSdyzO-S3CmSGIiCaZsN9dTTKhni/exec?";
 var fskr = (lux = mhn = nva = drd = anime = xp = pdl = mrm = mrobot = fir = single = false);
 let kapish = "";
-let newChange = '';
 var allLinks = [];
 var homeUrl = "https://dlcee.blogspot.com/";
 var pr3 = "https://sgscrape.herokuapp.com/?url=";
