@@ -1,6 +1,6 @@
 /*!
  * dlcee v1.0.0
- * A tiny, Promise-based vanilla JS Ajax/HTTP plugin with great browser support.
+ * dlcee script
  * (c) 2020 Ceetek
  * MIT License
  */
