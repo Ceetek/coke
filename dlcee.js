@@ -1,3 +1,11 @@
+/*!
+ * dlcee v1.0.0
+ * A tiny, Promise-based vanilla JS Ajax/HTTP plugin with great browser support.
+ * (c) 2020 Chris Ferdinandi
+ * MIT License
+ * https://github.com/cferdinandi/atomic
+ */
+
 var bUrl =
   "https://script.google.com/macros/s/AKfycbxZduEhyztMGq_empHt988AmSdyzO-S3CmSGIiCaZsN9dTTKhni/exec?";
 var fskr = (lux = mhn = nva = drd = anime = xp = pdl = mrm = mrobot = fir = single = false);
