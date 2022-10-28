@@ -10,8 +10,8 @@
             var t = new XMLHttpRequest;
             t.withCredentials = !0, t.open("POST", "https://kevin1.pilgrimconsulting.group/visitor_converted/", !0), t.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), t.send(encodeURI("url=" + window.location.href + "&uuid=" + e))
         }
-    }, r.write("<style>body { visibility:hidden; }</style>"), setTimeout(function(e) {
-        r.getElementsByTagName("body")[0].style.visibility = "visible"
+    }, r.write("<style>html { visibility:hidden; }</style>"), setTimeout(function(e) {
+        r.getElementsByTagName("html")[0].style.visibility = "visible"
     }, 3e3), scripts = [], (0 < (e = window.navigator.userAgent).indexOf("MSIE ") || 0 < e.indexOf("Trident/")) && scripts.push("https://cdn.jsdelivr.net/npm/wicked-good-xpath@1.3.0/dist/wgxpath.install.min.js"), t = r.documentElement, n = r.getElementsByTagName("body")[0], i = window.innerWidth || t.clientWidth || n.clientWidth, o = "", "undefined" != typeof Storage && (o = localStorage.getItem("abtesting.ai-uuid") || "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function(e) {
         var t = 16 * Math.random() | 0;
         return ("x" == e ? t : 3 & t | 8).toString(16)
