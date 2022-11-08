@@ -8,14 +8,14 @@
             var e = "";
             "undefined" != typeof Storage && (e = localStorage.getItem("abtesting.ai-uuid") || "");
             var t = new XMLHttpRequest;
-            t.withCredentials = !0, t.open("POST", "https://kevin1.pilgrimconsulting.group/visitor_converted/", !0), t.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), t.send(encodeURI("url=" + window.location.href + "&uuid=" + e))
+            t.withCredentials = !0, t.open("POST", "https://abtest1.ga/visitor_converted/", !0), t.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), t.send(encodeURI("url=" + window.location.href + "&uuid=" + e))
         }
     }, r.write("<style>html { visibility:hidden !important; }</style>"), setTimeout(function(e) {
         r.getElementsByTagName("html")[0].style.setProperty('visibility', 'visible', 'important');
     }, 3e3), scripts = [], (0 < (e = window.navigator.userAgent).indexOf("MSIE ") || 0 < e.indexOf("Trident/")) && scripts.push("https://cdn.jsdelivr.net/npm/wicked-good-xpath@1.3.0/dist/wgxpath.install.min.js"), t = r.documentElement, n = r.getElementsByTagName("body")[0], i = window.innerWidth || t.clientWidth || n.clientWidth, o = "", "undefined" != typeof Storage && (o = localStorage.getItem("abtesting.ai-uuid") || "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function(e) {
         var t = 16 * Math.random() | 0;
         return ("x" == e ? t : 3 & t | 8).toString(16)
-    }), localStorage.setItem("abtesting.ai-uuid", o)), a = d("abtestingai_ab_test_id"), s = d("utm_term") || d("hsa_kw") || d("keyword"), scripts.push("https://kevin1.pilgrimconsulting.group/fetch_variant/?width=" + i + "&url=" + encodeURIComponent(window.location.href) + "&referrer=" + encodeURIComponent(document.referrer) + "&uuid=" + encodeURIComponent(o) + "&ab_test_id=" + (a ? encodeURIComponent(a) : "") + "&utm_term=" + (s ? encodeURIComponent(s) : "") + "&url_params=" + encodeURIComponent(location.search)), function(e, t, n, i, o) {
+    }), localStorage.setItem("abtesting.ai-uuid", o)), a = d("abtestingai_ab_test_id"), s = d("utm_term") || d("hsa_kw") || d("keyword"), scripts.push("https://abtest1.ga/fetch_variant/?width=" + i + "&url=" + encodeURIComponent(window.location.href) + "&referrer=" + encodeURIComponent(document.referrer) + "&uuid=" + encodeURIComponent(o) + "&ab_test_id=" + (a ? encodeURIComponent(a) : "") + "&utm_term=" + (s ? encodeURIComponent(s) : "") + "&url_params=" + encodeURIComponent(location.search)), function(e, t, n, i, o) {
         function a(e) {
             for (; i[0] && "loaded" == i[0].readyState;)(e = i.shift()).onreadystatechange = null, o.parentNode.insertBefore(e, o)
         }
